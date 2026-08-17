@@ -1,0 +1,27 @@
+/*
+Theme Name: HB Towing Theme
+Description: Simple starter theme for HB Towing. Custom theme design by Jonathan Reade and theme build by Web Ok Solution Inc.
+Version: 1.0.0
+Author: Web Ok Solutions Inc.
+Author URI: https://webok.ca
+Tags: wordpress, theme, starter, Web Ok
+License: MIT
+*/
+
+//tailwindcss
+/* purgecss start ignore */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+/* purgecss end ignore */
+
+@import "tailwindcss/utilities";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@300;400;600&display=swap');
+
+//customcss
+@import "vars";
+@import "global";
+@import "header";
+@import "swiper";
+@import "wp-forms";
+@import "services";

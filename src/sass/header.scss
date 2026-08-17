@@ -1,0 +1,35 @@
+header.scrolled {
+  @apply shadow-2xl bg-secondary text-tertiary ;
+  h1, p, ul li a, ul, li, {
+    @apply text-tertiary;
+  }
+  a.button {
+    @apply bg-tertiary text-white;
+  }
+  button.hamburger {
+    @apply text-tertiary;
+  }
+  nav ul li.active a {
+    @apply border-tertiary;
+  }
+}
+
+nav ul li a {
+  @apply mr-8 font-medium;
+}
+
+nav ul li.active a {
+  @apply border-b-2 pb-1 border-secondary;
+}
+
+header.open-menu:not(.scrolled) nav ul li.active a {
+  @media (max-width: 767px) {
+    @apply border-tertiary;
+  }
+}
+
+header {
+  a.button {
+    @apply bg-secondary opacity-100;
+  }
+}

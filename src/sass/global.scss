@@ -1,0 +1,34 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+  @apply bg-white text-tertiary-bright p-4 leading-none text-center max-w-xxs;
+}
+
+.button:hover {
+  @apply text-tertiary;
+}
+
+.button.alt {
+  @apply bg-tertiary text-secondary p-4 leading-none text-center max-w-xxs;
+}
+
+.button.alt:hover {
+  opacity: 0.90;
+  @apply text-primary;
+}
+
+
+.legal-pages {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold pb-1 text-xl;
+  }
+  p, ul {
+    @apply pb-4;
+  }
+}

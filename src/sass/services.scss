@@ -1,0 +1,7 @@
+.service:nth-child(odd) {
+  .service-image {
+    @media (min-width: 1024px) {
+      order: 2;
+    }
+  }
+}

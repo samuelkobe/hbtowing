@@ -1,0 +1,23 @@
+[id^='wpforms-'] {
+  ::placeholder {
+    @apply text-light-gray #{!important};
+  }
+  input, div.choices div.choices__inner, textarea {
+    @apply bg-lightest-gray text-tertiary border-transparent text-xl #{!important};
+  }
+  input, div.choices div.choices__inner {
+    @apply h-12 #{!important};
+  }
+  div.choices__item.choices__placeholder.choices__item--selectable {
+      @apply text-light-gray opacity-100 #{!important};
+  }
+  div.wpforms-field-limit-text {
+    @apply text-light-gray mb-2 #{!important};
+  }
+  div.wpforms-submit-container {
+    @apply w-full #{!important};
+    button {
+      @apply bg-tertiary-light text-secondary text-xl font-bold w-full #{!important};
+    }
+  }
+}

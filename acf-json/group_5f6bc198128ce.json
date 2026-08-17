@@ -1,0 +1,101 @@
+{
+    "key": "group_5f6bc198128ce",
+    "title": "TEMPLATE: ACCOLADES",
+    "fields": [
+        {
+            "key": "field_5f6bc1d387089",
+            "label": "Accolade Title",
+            "name": "accolade_title",
+            "type": "text",
+            "instructions": "Add the name of the accolade or award (Max characters 32).",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 32
+        },
+        {
+            "key": "field_5f6bc20d8708a",
+            "label": "Accolade Description",
+            "name": "accolade_description",
+            "type": "textarea",
+            "instructions": "Add a short description of the accolade or award (Max Character 240).",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": 240,
+            "rows": 4,
+            "new_lines": ""
+        },
+        {
+            "key": "field_5f750f8d6c709",
+            "label": "Accolade Icon",
+            "name": "accolade_icon",
+            "type": "image",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "small",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5f6bc2aa8708b",
+            "label": "Accolade Link",
+            "name": "accolade_link",
+            "type": "link",
+            "instructions": "Add a link to this accolade or award (Optional).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": ""
+            }
+        ]
+    ],
+    "menu_order": 9999,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1601507269
+}
